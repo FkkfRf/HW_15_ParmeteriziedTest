@@ -40,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/QA_Projects/HW_15_ParmeteriziedTest/src/test/resources",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/QA_Projects/HW_15_ParmeteriziedTest/src/test/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\QA_Projects\HW_15_ParmeteriziedTest\src\test\resources" />
@@ -57,7 +57,7 @@
       <recent name="fkkf" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WorldWeatherSiteTest">
+  <component name="RunManager" selected="Gradle.WorldWeatherSiteTest.setCityOnWorldWeatherSite">
     <configuration name="HW_15_ParmeteriziedTest [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -173,9 +173,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WorldWeatherSiteTest.setCityOnWorldWeatherSite" />
         <item itemvalue="Gradle.WorldWeatherSiteTest" />
         <item itemvalue="Gradle.WorldWeatherSiteTest.selectCityOnWorldWeatherSite" />
-        <item itemvalue="Gradle.WorldWeatherSiteTest.setCityOnWorldWeatherSite" />
         <item itemvalue="Gradle.WorldWeatherSiteTest.setCitiOnWorldWeatherSite" />
         <item itemvalue="Gradle.HW_15_ParmeteriziedTest [test]" />
       </list>
