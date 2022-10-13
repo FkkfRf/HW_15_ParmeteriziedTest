@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class WorldWeatherSiteTest extends BaseTest{
 
-    @ValueSource(strings = {"Санкт-Петербург", "Пермь", "Южно-Сахалинск", "Уфа", "Самара", "Екатеринбург"})
+    @ValueSource(strings = {"РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі", "РџРµСЂРјСЊ", "Р®Р¶РЅРѕ-РЎР°С…Р°Р»РёРЅСЃРє", "РЈС„Р°", "РЎР°РјР°СЂР°", "Р•РєР°С‚РµСЂРёРЅР±СѓСЂРі"})
     @DisplayName("Set City from list on the Search Page")
     @ParameterizedTest(name = "Set City {0}")
     void  setCityOnWorldWeatherSite(String cityName){
