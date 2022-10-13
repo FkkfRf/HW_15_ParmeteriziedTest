@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f174dea-abb0-4c25-ae5f-5eb68784e23a" name="Changes" comment="1st part. ParameterizedTest">
+    <list default="true" id="2f174dea-abb0-4c25-ae5f-5eb68784e23a" name="Changes" comment="1st part. Parameterized Test">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SelectCity.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rf/fkkf/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rf/fkkf/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rf/fkkf/WorldWeatherSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rf/fkkf/WorldWeatherSiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/WorldWeatherSiteTestCases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/WorldWeatherSiteTestCases.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/QA_Projects/HW_15_ParmeteriziedTest/src/test/resources"
+    "last_opened_file_path": "C:/QA_Projects/HW_15_ParmeteriziedTest/src/test/resources",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,6 +102,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="WorldWeatherSiteTest.selectCityOnWorldWeatherSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rf.fkkf.WorldWeatherSiteTest.selectCityOnWorldWeatherSite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="WorldWeatherSiteTest.setCitiOnWorldWeatherSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,9 +148,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="WorldWeatherSiteTest.setCityOnWorldWeatherSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rf.fkkf.WorldWeatherSiteTest.setCityOnWorldWeatherSite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.WorldWeatherSiteTest" />
+        <item itemvalue="Gradle.WorldWeatherSiteTest.selectCityOnWorldWeatherSite" />
+        <item itemvalue="Gradle.WorldWeatherSiteTest.setCityOnWorldWeatherSite" />
         <item itemvalue="Gradle.WorldWeatherSiteTest.setCitiOnWorldWeatherSite" />
         <item itemvalue="Gradle.HW_15_ParmeteriziedTest [test]" />
       </list>
@@ -146,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665637351346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1st part. Parameterized Test">
+      <created>1665662886395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665662886395</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1st part. Parameterized Test">
+      <created>1665662935621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665662935621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +227,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st part. ParameterizedTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st part. ParameterizedTest" />
+    <MESSAGE value="1st part. Parameterized Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st part. Parameterized Test" />
   </component>
 </project>
