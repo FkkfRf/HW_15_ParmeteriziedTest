@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="windows-1251"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f174dea-abb0-4c25-ae5f-5eb68784e23a" name="Changes" comment="1st part. Parameterized Test">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/SelectCity.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rf/fkkf/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rf/fkkf/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/rf/fkkf/WorldWeatherSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rf/fkkf/WorldWeatherSiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/SelectCity.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SelectCity.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/WorldWeatherSiteTestCases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/WorldWeatherSiteTestCases.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HW_15_ParmeteriziedTest" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,16 +61,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/QA_Projects/HW_15_ParmeteriziedTest/src/test/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/QA_Projects/HW_15_ParmeteriziedTest/.idea",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\QA_Projects\HW_15_ParmeteriziedTest\.idea" />
       <recent name="C:\QA_Projects\HW_15_ParmeteriziedTest\src\test\resources" />
       <recent name="C:\QA_Projects\HW_15_ParmeteriziedTest" />
     </key>
@@ -57,28 +79,7 @@
       <recent name="fkkf" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WorldWeatherSiteTest.setCityOnWorldWeatherSite">
-    <configuration name="HW_15_ParmeteriziedTest [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.WorldWeatherSiteTest">
     <configuration name="WorldWeatherSiteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -93,6 +94,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;rf.fkkf.WorldWeatherSiteTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WorldWeatherSiteTest.selectCityOfRegionFWorldWeatherSite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rf.fkkf.WorldWeatherSiteTest.selectCityOfRegionFWorldWeatherSite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.WorldWeatherSiteTest.setCityOnWorldWeatherSite" />
         <item itemvalue="Gradle.WorldWeatherSiteTest" />
         <item itemvalue="Gradle.WorldWeatherSiteTest.selectCityOnWorldWeatherSite" />
+        <item itemvalue="Gradle.WorldWeatherSiteTest.selectCityOfRegionFWorldWeatherSite" />
+        <item itemvalue="Gradle.WorldWeatherSiteTest.setCityOnWorldWeatherSite" />
         <item itemvalue="Gradle.WorldWeatherSiteTest.setCitiOnWorldWeatherSite" />
-        <item itemvalue="Gradle.HW_15_ParmeteriziedTest [test]" />
       </list>
     </recent_temporary>
   </component>

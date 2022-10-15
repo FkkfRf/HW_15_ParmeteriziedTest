@@ -7,7 +7,7 @@ public class BaseTest {
     @BeforeAll
     static void setUp() {
         Configuration.baseUrl = "https://world-weather.ru";
-        Configuration.browserSize = "1920x1986";
+        Configuration.browserSize = "1300x1800";
         Configuration.holdBrowserOpen = true;
     }
 }
